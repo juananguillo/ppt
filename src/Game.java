@@ -12,12 +12,12 @@ public class Game {
 	}
 
 	private void welcome() {
-		System.out.println("Bienvenido a nuestro pequeño juego: Piedra Papel Tijeras :-D");
+		System.out.println("Bienvenido a nuestro pequeno juego: Piedra Papel Tijeras Lagartija Spock :-D");
 	}
 
 	private void printHelp() {
 		System.out.println("");
-		System.out.println("Ordenes y comandos válidos para el juego: ");
+		System.out.println("Ordenes y comandos validos para el juego: ");
 		parser.showCommands();
 	}
 
@@ -41,11 +41,12 @@ public class Game {
 		System.out.println("El PC elige: " + computer.getMove());
 	}
 
+
 	private boolean processMove(Move move) {
 		Move pcMove;
 
 		if (move.isUnknown()) {
-			System.out.println("Opción No Válida");
+			System.out.println("Opcion No Valida");
 			printHelp();
 			return true;
 		}
