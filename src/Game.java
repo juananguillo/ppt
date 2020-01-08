@@ -17,6 +17,16 @@ public class Game {
 
 	private void printHelp() {
 		System.out.println("");
+		System.out.println("Tijeras vence Papel\n" + 
+				"Papel vence Piedra\n" + 
+				"Piedra vence Lagartija\n" + 
+				"Lagartija vence Spock\n" + 
+				"Spock vence Scissors\n" + 
+				"Tijeras vence Lagartija\n" + 
+				"Lagartija vence Papel\n" + 
+				"Papel vence Spock\n" + 
+				"Spock vence Piedra\n" + 
+				"Piedra vence Tijera");
 		System.out.println("Ordenes y comandos validos para el juego: ");
 		parser.showCommands();
 	}
