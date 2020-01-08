@@ -17,6 +17,7 @@ public class Game {
 
 	private void printHelp() {
 		System.out.println("");
+		System.out.println("REGLAS");
 		System.out.println("Tijeras vence Papel\n" + 
 				"Papel vence Piedra\n" + 
 				"Piedra vence Lagartija\n" + 
