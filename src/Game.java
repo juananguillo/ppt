@@ -12,7 +12,7 @@ public class Game {
 	}
 
 	private void welcome() {
-		System.out.println("Bienvenido a nuestro pequeno juego: Piedra Papel Tijeras Lagartija Spock :-D");
+		System.out.println("Bienvenido a nuestro pequeno juego: Piedra Papel Tijeras Sepia Toro :-D");
 	}
 
 	private void printHelp() {
@@ -20,13 +20,13 @@ public class Game {
 		System.out.println("REGLAS");
 		System.out.println("Tijeras vence Papel\n" + 
 				"Papel vence Piedra\n" + 
-				"Piedra vence Lagartija\n" + 
-				"Lagartija vence Spock\n" + 
-				"Spock vence Scissors\n" + 
-				"Tijeras vence Lagartija\n" + 
-				"Lagartija vence Papel\n" + 
-				"Papel vence Spock\n" + 
-				"Spock vence Piedra\n" + 
+				"Piedra vence Sepia\n" + 
+				"Sepia vence Toro\n" + 
+				"Toro vence Scissors\n" + 
+				"Tijeras vence Sepia\n" + 
+				"Sepia vence Papel\n" + 
+				"Papel vence Toro\n" + 
+				"Toro vence Piedra\n" + 
 				"Piedra vence Tijera");
 		System.out.println("Ordenes y comandos validos para el juego: ");
 		parser.showCommands();
